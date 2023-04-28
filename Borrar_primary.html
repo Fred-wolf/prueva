@@ -5,7 +5,7 @@
 </head>
 
 <body>
-  <?php
+
   $conexion = mysqli_connect("localhost", "root", "", "yazaw") or
     die("Problemas con la conexión");
 
@@ -20,7 +20,7 @@
     echo "No existe producto con ese ID.";
   }
   mysqli_close($conexion);
-  ?>
+
   <style>
   button {
     background-color: #8B0000;
